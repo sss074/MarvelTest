@@ -154,6 +154,11 @@
                                                         <constraint firstAttribute="width" secondItem="rZO-YU-Nwt" secondAttribute="height" multiplier="1:1" id="5Wx-aH-A5I"/>
                                                         <constraint firstAttribute="width" constant="335" id="qSS-6u-5hi"/>
                                                     </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <integer key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjW-H3-IO0">
                                                     <rect key="frame" x="20" y="365" width="335" height="30"/>

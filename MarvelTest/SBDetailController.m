@@ -17,6 +17,8 @@
 
 @implementation SBDetailController
 
+@synthesize content = _content;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     

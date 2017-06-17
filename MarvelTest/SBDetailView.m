@@ -17,6 +17,8 @@
 
 @implementation SBDetailView
 
+@synthesize content = _content;
+
 - (void)setContent:(SBCharacters *)content{
     _content = content;
     [_content retain];
