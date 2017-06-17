@@ -52,25 +52,7 @@ static UIWindow *window;
     [[(UIView*)self layer]setBorderWidth:0.7];
     [(UIView*)self layer].borderColor = borderColor.CGColor;
 }
--(UIFont*) fontFromScreen:(NSArray*)param withFontName:(NSString*)fontName{
-    
-    CGFloat pointSize = 18.f;
-    
-    if(param != nil){
-        DeviceSize size = [SDiOSVersion deviceSize];
-        if(param.count == 3){
-            if(size == Screen5Dot5inch){
-                pointSize = ((NSNumber*)param[0]).floatValue;
-            } else if(size == Screen4Dot7inch){
-                pointSize = ((NSNumber*)param[1]).floatValue;
-            }else if(size == Screen4inch || size == Screen3Dot5inch){
-                pointSize = ((NSNumber*)param[2]).floatValue;
-            }
-        }
-    }
-    
-    return  [UIFont fontWithName:fontName size:pointSize];;
-}
+
 
 - (void)clearPresentForClassDescriptor{
     [requestClasses removeAllObjects];
@@ -149,14 +131,6 @@ static UIWindow *window;
     
 }
 
-- (BOOL)isParamValid:(id)obj{
-    if(obj == nil)
-        return NO;
-    if([obj isEqual:[NSNull null]])
-        return NO;
-    
-    return YES;
-}
 
 - (NSString *)documentsPathForFileName:(NSString *)name {
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -196,17 +170,5 @@ static UIWindow *window;
     
    
 }
-- (NSString*)milsTimeStampt{
-    
-    NSTimeZone *tz = [NSTimeZone defaultTimeZone];
-    NSInteger seconds = [tz secondsFromGMTForDate: [NSDate date]];
-    NSDate* dt = [NSDate dateWithTimeInterval: seconds sinceDate: [NSDate date]];
-    NSTimeInterval timeStampinterval = [dt timeIntervalSince1970];
-    long digits = (long)timeStampinterval; // this is the first 10 digits
-    int decimalDigits = (int)(fmod(timeStampinterval, 1) * 1000); // this will get the 3 missing digits
-    long timestamp = (digits * 1000) + decimalDigits;
-    NSString *milsTimeStampt = [NSString stringWithFormat:@"%ld",timestamp];
-    
-    return milsTimeStampt;
-}
+
 @end

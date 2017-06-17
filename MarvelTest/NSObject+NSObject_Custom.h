@@ -19,15 +19,14 @@
 @property (assign, nonatomic) UIColor* borderColor;
 
 
-- (UIFont*) fontFromScreen:(NSArray*)param withFontName:(NSString*)fontName;
+
 - (id)checkPresentForClassDescriptor:(NSString*)objID;
 - (CGSize)sizeWithText:(NSString*)text width:(CGFloat)wdt font:(UIFont*)font;
 - (void)clearPresentForClassDescriptor;
 - (void)showIndecator:(BOOL)state;
 - (void)showAlertMessage:(NSString*)message;
-- (BOOL)isParamValid:(id)obj;
 - (NSString *)documentsPathForFileName:(NSString *)name;
 - (void)customizeAppearance;
-- (NSString*)milsTimeStampt;
+
 
 @end
