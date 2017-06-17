@@ -34,7 +34,8 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     
-    [self simpleTitle:@"Marvel characters"];
+    self.title = @"Marvel characters";
+
 }
 
 - (void)dealloc{

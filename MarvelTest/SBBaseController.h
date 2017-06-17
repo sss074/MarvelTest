@@ -10,9 +10,7 @@
 
 @interface SBBaseController : UIViewController
 
-@property (nonatomic,strong) UILabel *titleLabel;
 - (void)setupNavBtn:(NavBarType)type;
-- (void)simpleTitle:(NSString*)title;
 - (void)btnBackPressed;
 
 @end

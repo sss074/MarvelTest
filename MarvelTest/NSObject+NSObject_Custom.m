@@ -173,8 +173,16 @@ static UIWindow *window;
     
     [[UINavigationBar appearance] setTranslucent:NO];
     
+    DeviceSize size = [SDiOSVersion deviceSize];
+    
+    CGFloat pointSize = 18.f;
+    if(size == Screen4inch || size == Screen3Dot5inch){
+        pointSize = 14.f;
+    }
+    
+    
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor],
-                                                           NSFontAttributeName:[UIFont fontWithName:TITLEFONT size:18.f]
+                                                           NSFontAttributeName:[UIFont fontWithName:TITLEFONT size:pointSize]
                                                            }];
     
     UIImage* image = [[UIImage alloc]init];

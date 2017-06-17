@@ -25,7 +25,7 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     
-    [self simpleTitle:_content.name];
+    self.title = _content.name;
     [self setupNavBtn:BACKTYPE];
     [_content retain];
     _detailView.content = _content;

@@ -34,5 +34,7 @@ static SBManager *sharedManager = nil;
             [self showAlertMessage:error.description];
         });
     }];
+    
+    [service release];
 }
 @end
