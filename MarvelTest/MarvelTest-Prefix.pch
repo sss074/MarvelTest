@@ -1,0 +1,27 @@
+//
+//  MarvelTest-Prefix.pch
+//  MarvelTest
+//
+//  Created by Sergiy Bekker on 17.06.17.
+//  Copyright © 2017 SBApps. All rights reserved.
+//
+
+#ifndef MarvelTest_Prefix_pch
+#define MarvelTest_Prefix_pch
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "AppConstants.h"
+    #import "AppDelegate.h"
+    #import "NSString+MD5.h"
+    #import "SBManager.h"
+    #import "SBCashService.h"
+    #import "SBBaseController.h"
+    #import "NSObject+NSObject_Custom.h"
+    #import "UIImageView+WebCache.h"
+    #import "UIImageView+WebCache.h"
+
+#endif
+
+#endif /* MarvelTest_Prefix_pch */

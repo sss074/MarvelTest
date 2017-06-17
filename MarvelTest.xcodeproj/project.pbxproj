@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0F1E501BB2D9F5227E72A10 /* libPods-MarvelTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B58A1BEA874D1098C2FD5E /* libPods-MarvelTest.a */; };
+		EF2616531EF4F80D00DBF766 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2616521EF4F80D00DBF766 /* main.m */; };
+		EF2616561EF4F80D00DBF766 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2616551EF4F80D00DBF766 /* AppDelegate.m */; };
+		EF2616591EF4F80D00DBF766 /* SBMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2616581EF4F80D00DBF766 /* SBMainController.m */; };
+		EF26165C1EF4F80D00DBF766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF26165A1EF4F80D00DBF766 /* Main.storyboard */; };
+		EF26165E1EF4F80D00DBF766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF26165D1EF4F80D00DBF766 /* Assets.xcassets */; };
+		EF2616611EF4F80D00DBF766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF26165F1EF4F80D00DBF766 /* LaunchScreen.storyboard */; };
+		EF2616721EF50C5E00DBF766 /* SBBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2616711EF50C5E00DBF766 /* SBBaseController.m */; };
+		EF2616751EF50D2E00DBF766 /* NSObject+NSObject_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2616741EF50D2E00DBF766 /* NSObject+NSObject_Custom.m */; };
+		EF26167C1EF511C700DBF766 /* SBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF26167B1EF511C700DBF766 /* SBManager.m */; };
+		EF2616841EF5180600DBF766 /* SBBaseDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2616831EF5180600DBF766 /* SBBaseDataModel.m */; };
+		EF26168C1EF51A1A00DBF766 /* SBObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF26168B1EF51A1A00DBF766 /* SBObjectManager.m */; };
+		EF2616901EF51CE700DBF766 /* SBCharactersService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF26168F1EF51CE700DBF766 /* SBCharactersService.m */; };
+		EF2616961EF53BDE00DBF766 /* SBMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2616951EF53BDE00DBF766 /* SBMainView.m */; };
+		EF26169A1EF53D4600DBF766 /* SBCharacterListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2616991EF53D4600DBF766 /* SBCharacterListCell.m */; };
+		EF26169C1EF54D5400DBF766 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF26169B1EF54D5400DBF766 /* SystemConfiguration.framework */; };
+		EF2616A01EF54DDD00DBF766 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EF26169F1EF54DDD00DBF766 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		EF2616A41EF5517100DBF766 /* SBCashService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2616A31EF5517100DBF766 /* SBCashService.m */; };
+		EF2616A71EF5601400DBF766 /* SBDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2616A61EF5601400DBF766 /* SBDetailController.m */; };
+		EF2616AB1EF5604B00DBF766 /* SBDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2616AA1EF5604B00DBF766 /* SBDetailView.m */; };
+		EF2616AC1EF560BF00DBF766 /* SBCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2616871EF5189800DBF766 /* SBCharacters.m */; };
+		EF2616AF1EF562BC00DBF766 /* SBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2616AE1EF562BC00DBF766 /* SBNavigationController.m */; };
+		EF2616B21EF5676E00DBF766 /* SBDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2616B11EF5676E00DBF766 /* SBDetailCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72B17B90CA2387989AB776F9 /* Pods-MarvelTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarvelTest/Pods-MarvelTest.debug.xcconfig"; sourceTree = "<group>"; };
+		76B58A1BEA874D1098C2FD5E /* libPods-MarvelTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MarvelTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0071A4D6D21765555C648B /* Pods-MarvelTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarvelTest/Pods-MarvelTest.release.xcconfig"; sourceTree = "<group>"; };
+		EF26164E1EF4F80D00DBF766 /* MarvelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2616521EF4F80D00DBF766 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF2616541EF4F80D00DBF766 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF2616551EF4F80D00DBF766 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF2616571EF4F80D00DBF766 /* SBMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBMainController.h; sourceTree = "<group>"; };
+		EF2616581EF4F80D00DBF766 /* SBMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBMainController.m; sourceTree = "<group>"; };
+		EF26165B1EF4F80D00DBF766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF26165D1EF4F80D00DBF766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF2616601EF4F80D00DBF766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF2616621EF4F80D00DBF766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF26166D1EF50A6400DBF766 /* MarvelTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarvelTest-Prefix.pch"; sourceTree = "<group>"; };
+		EF26166E1EF50B3600DBF766 /* AppConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		EF2616701EF50C5E00DBF766 /* SBBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBBaseController.h; sourceTree = "<group>"; };
+		EF2616711EF50C5E00DBF766 /* SBBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBBaseController.m; sourceTree = "<group>"; };
+		EF2616731EF50D2E00DBF766 /* NSObject+NSObject_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSObject_Custom.h"; sourceTree = "<group>"; };
+		EF2616741EF50D2E00DBF766 /* NSObject+NSObject_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSObject_Custom.m"; sourceTree = "<group>"; };
+		EF26167A1EF511C700DBF766 /* SBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBManager.h; sourceTree = "<group>"; };
+		EF26167B1EF511C700DBF766 /* SBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBManager.m; sourceTree = "<group>"; };
+		EF2616811EF517C800DBF766 /* SBMappableModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBMappableModel.h; sourceTree = "<group>"; };
+		EF2616821EF5180600DBF766 /* SBBaseDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBBaseDataModel.h; sourceTree = "<group>"; };
+		EF2616831EF5180600DBF766 /* SBBaseDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBBaseDataModel.m; sourceTree = "<group>"; };
+		EF2616861EF5189800DBF766 /* SBCharacters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCharacters.h; sourceTree = "<group>"; };
+		EF2616871EF5189800DBF766 /* SBCharacters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCharacters.m; sourceTree = "<group>"; };
+		EF26168A1EF51A1A00DBF766 /* SBObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBObjectManager.h; sourceTree = "<group>"; };
+		EF26168B1EF51A1A00DBF766 /* SBObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBObjectManager.m; sourceTree = "<group>"; };
+		EF26168E1EF51CE700DBF766 /* SBCharactersService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCharactersService.h; sourceTree = "<group>"; };
+		EF26168F1EF51CE700DBF766 /* SBCharactersService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCharactersService.m; sourceTree = "<group>"; };
+		EF2616941EF53BDE00DBF766 /* SBMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBMainView.h; sourceTree = "<group>"; };
+		EF2616951EF53BDE00DBF766 /* SBMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBMainView.m; sourceTree = "<group>"; };
+		EF2616981EF53D4600DBF766 /* SBCharacterListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCharacterListCell.h; sourceTree = "<group>"; };
+		EF2616991EF53D4600DBF766 /* SBCharacterListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCharacterListCell.m; sourceTree = "<group>"; };
+		EF26169B1EF54D5400DBF766 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EF26169D1EF54DDD00DBF766 /* NSObject+NSObject_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSObject_Custom.h"; sourceTree = "<group>"; };
+		EF26169E1EF54DDD00DBF766 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		EF26169F1EF54DDD00DBF766 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		EF2616A11EF54E0100DBF766 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		EF2616A21EF5517100DBF766 /* SBCashService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCashService.h; sourceTree = "<group>"; };
+		EF2616A31EF5517100DBF766 /* SBCashService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCashService.m; sourceTree = "<group>"; };
+		EF2616A51EF5601400DBF766 /* SBDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBDetailController.h; sourceTree = "<group>"; };
+		EF2616A61EF5601400DBF766 /* SBDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBDetailController.m; sourceTree = "<group>"; };
+		EF2616A91EF5604B00DBF766 /* SBDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBDetailView.h; sourceTree = "<group>"; };
+		EF2616AA1EF5604B00DBF766 /* SBDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBDetailView.m; sourceTree = "<group>"; };
+		EF2616AD1EF562BC00DBF766 /* SBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBNavigationController.h; sourceTree = "<group>"; };
+		EF2616AE1EF562BC00DBF766 /* SBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBNavigationController.m; sourceTree = "<group>"; };
+		EF2616B01EF5676E00DBF766 /* SBDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBDetailCell.h; sourceTree = "<group>"; };
+		EF2616B11EF5676E00DBF766 /* SBDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBDetailCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF26164B1EF4F80D00DBF766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF26169C1EF54D5400DBF766 /* SystemConfiguration.framework in Frameworks */,
+				D0F1E501BB2D9F5227E72A10 /* libPods-MarvelTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FA56BD96010A8A535CFC63B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF26169B1EF54D5400DBF766 /* SystemConfiguration.framework */,
+				76B58A1BEA874D1098C2FD5E /* libPods-MarvelTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		623456CB357F7B726B5AE987 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72B17B90CA2387989AB776F9 /* Pods-MarvelTest.debug.xcconfig */,
+				EE0071A4D6D21765555C648B /* Pods-MarvelTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF2616451EF4F80D00DBF766 = {
+			isa = PBXGroup;
+			children = (
+				EF2616501EF4F80D00DBF766 /* MarvelTest */,
+				EF26164F1EF4F80D00DBF766 /* Products */,
+				623456CB357F7B726B5AE987 /* Pods */,
+				3FA56BD96010A8A535CFC63B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF26164F1EF4F80D00DBF766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF26164E1EF4F80D00DBF766 /* MarvelTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF2616501EF4F80D00DBF766 /* MarvelTest */ = {
+			isa = PBXGroup;
+			children = (
+				EF2616691EF50A0100DBF766 /* AppDelegate */,
+				EF26166A1EF50A0F00DBF766 /* Controllers */,
+				EF26166B1EF50A1500DBF766 /* Views */,
+				EF2616971EF53D1200DBF766 /* Cells */,
+				EF26166C1EF50A2100DBF766 /* Service */,
+				EF2616681EF509EC00DBF766 /* Storyboard */,
+				EF2616511EF4F80D00DBF766 /* Supporting Files */,
+			);
+			path = MarvelTest;
+			sourceTree = "<group>";
+		};
+		EF2616511EF4F80D00DBF766 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF26166E1EF50B3600DBF766 /* AppConstants.h */,
+				EF2616621EF4F80D00DBF766 /* Info.plist */,
+				EF2616521EF4F80D00DBF766 /* main.m */,
+				EF26166D1EF50A6400DBF766 /* MarvelTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF2616681EF509EC00DBF766 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EF26165D1EF4F80D00DBF766 /* Assets.xcassets */,
+				EF26165A1EF4F80D00DBF766 /* Main.storyboard */,
+				EF26165F1EF4F80D00DBF766 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		EF2616691EF50A0100DBF766 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EF2616541EF4F80D00DBF766 /* AppDelegate.h */,
+				EF2616551EF4F80D00DBF766 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		EF26166A1EF50A0F00DBF766 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF2616771EF50EA000DBF766 /* MainController */,
+				EF2616781EF50EB100DBF766 /* DetailController */,
+				EF26166F1EF50C3B00DBF766 /* BaseController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EF26166B1EF50A1500DBF766 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF2616931EF53BC400DBF766 /* MainView */,
+				EF2616A81EF5602200DBF766 /* DetailView */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EF26166C1EF50A2100DBF766 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EF2616791EF511A600DBF766 /* Manager */,
+				EF26167D1EF511D300DBF766 /* Models */,
+				EF26167E1EF511DD00DBF766 /* WebServices */,
+				EF26167F1EF511F700DBF766 /* CashService */,
+				EF2616761EF50E8C00DBF766 /* Categories */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		EF26166F1EF50C3B00DBF766 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				EF2616701EF50C5E00DBF766 /* SBBaseController.h */,
+				EF2616711EF50C5E00DBF766 /* SBBaseController.m */,
+				EF2616AD1EF562BC00DBF766 /* SBNavigationController.h */,
+				EF2616AE1EF562BC00DBF766 /* SBNavigationController.m */,
+			);
+			name = BaseController;
+			sourceTree = "<group>";
+		};
+		EF2616761EF50E8C00DBF766 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EF2616731EF50D2E00DBF766 /* NSObject+NSObject_Custom.h */,
+				EF2616741EF50D2E00DBF766 /* NSObject+NSObject_Custom.m */,
+				EF26169D1EF54DDD00DBF766 /* NSObject+NSObject_Custom.h */,
+				EF2616A11EF54E0100DBF766 /* NSString+MD5.h */,
+				EF26169E1EF54DDD00DBF766 /* Reachability.h */,
+				EF26169F1EF54DDD00DBF766 /* Reachability.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		EF2616771EF50EA000DBF766 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				EF2616571EF4F80D00DBF766 /* SBMainController.h */,
+				EF2616581EF4F80D00DBF766 /* SBMainController.m */,
+			);
+			name = MainController;
+			sourceTree = "<group>";
+		};
+		EF2616781EF50EB100DBF766 /* DetailController */ = {
+			isa = PBXGroup;
+			children = (
+				EF2616A51EF5601400DBF766 /* SBDetailController.h */,
+				EF2616A61EF5601400DBF766 /* SBDetailController.m */,
+			);
+			name = DetailController;
+			sourceTree = "<group>";
+		};
+		EF2616791EF511A600DBF766 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EF26167A1EF511C700DBF766 /* SBManager.h */,
+				EF26167B1EF511C700DBF766 /* SBManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		EF26167D1EF511D300DBF766 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF2616851EF5184A00DBF766 /* Characters */,
+				EF2616801EF517AC00DBF766 /* Base */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EF26167E1EF511DD00DBF766 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				EF26168D1EF51CCB00DBF766 /* CharactersService */,
+				EF2616891EF519D000DBF766 /* Base */,
+			);
+			name = WebServices;
+			sourceTree = "<group>";
+		};
+		EF26167F1EF511F700DBF766 /* CashService */ = {
+			isa = PBXGroup;
+			children = (
+				EF2616A21EF5517100DBF766 /* SBCashService.h */,
+				EF2616A31EF5517100DBF766 /* SBCashService.m */,
+			);
+			name = CashService;
+			sourceTree = "<group>";
+		};
+		EF2616801EF517AC00DBF766 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EF2616821EF5180600DBF766 /* SBBaseDataModel.h */,
+				EF2616831EF5180600DBF766 /* SBBaseDataModel.m */,
+				EF2616811EF517C800DBF766 /* SBMappableModel.h */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		EF2616851EF5184A00DBF766 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				EF2616861EF5189800DBF766 /* SBCharacters.h */,
+				EF2616871EF5189800DBF766 /* SBCharacters.m */,
+			);
+			name = Characters;
+			sourceTree = "<group>";
+		};
+		EF2616891EF519D000DBF766 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EF26168A1EF51A1A00DBF766 /* SBObjectManager.h */,
+				EF26168B1EF51A1A00DBF766 /* SBObjectManager.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		EF26168D1EF51CCB00DBF766 /* CharactersService */ = {
+			isa = PBXGroup;
+			children = (
+				EF26168E1EF51CE700DBF766 /* SBCharactersService.h */,
+				EF26168F1EF51CE700DBF766 /* SBCharactersService.m */,
+			);
+			name = CharactersService;
+			sourceTree = "<group>";
+		};
+		EF2616931EF53BC400DBF766 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				EF2616941EF53BDE00DBF766 /* SBMainView.h */,
+				EF2616951EF53BDE00DBF766 /* SBMainView.m */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		EF2616971EF53D1200DBF766 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF2616981EF53D4600DBF766 /* SBCharacterListCell.h */,
+				EF2616991EF53D4600DBF766 /* SBCharacterListCell.m */,
+				EF2616B01EF5676E00DBF766 /* SBDetailCell.h */,
+				EF2616B11EF5676E00DBF766 /* SBDetailCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		EF2616A81EF5602200DBF766 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				EF2616A91EF5604B00DBF766 /* SBDetailView.h */,
+				EF2616AA1EF5604B00DBF766 /* SBDetailView.m */,
+			);
+			name = DetailView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF26164D1EF4F80D00DBF766 /* MarvelTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2616651EF4F80D00DBF766 /* Build configuration list for PBXNativeTarget "MarvelTest" */;
+			buildPhases = (
+				C612078FD1F533A7EE811D7F /* [CP] Check Pods Manifest.lock */,
+				EF26164A1EF4F80D00DBF766 /* Sources */,
+				EF26164B1EF4F80D00DBF766 /* Frameworks */,
+				EF26164C1EF4F80D00DBF766 /* Resources */,
+				C2279829126F2DADBDA263C6 /* [CP] Embed Pods Frameworks */,
+				DB8DA1938ED6678902EAA479 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarvelTest;
+			productName = MarvelTest;
+			productReference = EF26164E1EF4F80D00DBF766 /* MarvelTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF2616461EF4F80D00DBF766 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SBApps;
+				TargetAttributes = {
+					EF26164D1EF4F80D00DBF766 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 46353Z8TA3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF2616491EF4F80D00DBF766 /* Build configuration list for PBXProject "MarvelTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF2616451EF4F80D00DBF766;
+			productRefGroup = EF26164F1EF4F80D00DBF766 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF26164D1EF4F80D00DBF766 /* MarvelTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF26164C1EF4F80D00DBF766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2616611EF4F80D00DBF766 /* LaunchScreen.storyboard in Resources */,
+				EF26165E1EF4F80D00DBF766 /* Assets.xcassets in Resources */,
+				EF26165C1EF4F80D00DBF766 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2279829126F2DADBDA263C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarvelTest/Pods-MarvelTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C612078FD1F533A7EE811D7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB8DA1938ED6678902EAA479 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarvelTest/Pods-MarvelTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF26164A1EF4F80D00DBF766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2616A71EF5601400DBF766 /* SBDetailController.m in Sources */,
+				EF2616A01EF54DDD00DBF766 /* Reachability.m in Sources */,
+				EF2616A41EF5517100DBF766 /* SBCashService.m in Sources */,
+				EF2616901EF51CE700DBF766 /* SBCharactersService.m in Sources */,
+				EF2616841EF5180600DBF766 /* SBBaseDataModel.m in Sources */,
+				EF2616AF1EF562BC00DBF766 /* SBNavigationController.m in Sources */,
+				EF26169A1EF53D4600DBF766 /* SBCharacterListCell.m in Sources */,
+				EF26168C1EF51A1A00DBF766 /* SBObjectManager.m in Sources */,
+				EF2616591EF4F80D00DBF766 /* SBMainController.m in Sources */,
+				EF2616721EF50C5E00DBF766 /* SBBaseController.m in Sources */,
+				EF2616561EF4F80D00DBF766 /* AppDelegate.m in Sources */,
+				EF2616B21EF5676E00DBF766 /* SBDetailCell.m in Sources */,
+				EF2616751EF50D2E00DBF766 /* NSObject+NSObject_Custom.m in Sources */,
+				EF26167C1EF511C700DBF766 /* SBManager.m in Sources */,
+				EF2616AB1EF5604B00DBF766 /* SBDetailView.m in Sources */,
+				EF2616531EF4F80D00DBF766 /* main.m in Sources */,
+				EF2616AC1EF560BF00DBF766 /* SBCharacters.m in Sources */,
+				EF2616961EF53BDE00DBF766 /* SBMainView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF26165A1EF4F80D00DBF766 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF26165B1EF4F80D00DBF766 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF26165F1EF4F80D00DBF766 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2616601EF4F80D00DBF766 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF2616631EF4F80D00DBF766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF2616641EF4F80D00DBF766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF2616661EF4F80D00DBF766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72B17B90CA2387989AB776F9 /* Pods-MarvelTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DEVELOPMENT_TEAM = 46353Z8TA3;
+				GCC_PREFIX_HEADER = "MarvelTest/MarvelTest-Prefix.pch";
+				INFOPLIST_FILE = MarvelTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sb.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF2616671EF4F80D00DBF766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE0071A4D6D21765555C648B /* Pods-MarvelTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DEVELOPMENT_TEAM = 46353Z8TA3;
+				GCC_PREFIX_HEADER = "MarvelTest/MarvelTest-Prefix.pch";
+				INFOPLIST_FILE = MarvelTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sb.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF2616491EF4F80D00DBF766 /* Build configuration list for PBXProject "MarvelTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2616631EF4F80D00DBF766 /* Debug */,
+				EF2616641EF4F80D00DBF766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2616651EF4F80D00DBF766 /* Build configuration list for PBXNativeTarget "MarvelTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2616661EF4F80D00DBF766 /* Debug */,
+				EF2616671EF4F80D00DBF766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF2616461EF4F80D00DBF766 /* Project object */;
+}
