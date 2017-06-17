@@ -34,7 +34,7 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     
-    self.title = @"Marvel characters";
+    self.navigationItem.title = @"Marvel characters";
 
 }
 
