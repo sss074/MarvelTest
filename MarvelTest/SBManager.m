@@ -8,6 +8,7 @@
 
 #import "SBManager.h"
 #import "SBCharactersService.h"
+#import "SBCashService.h"
 
 static SBManager *sharedManager = nil;
 
@@ -33,6 +34,26 @@ static SBManager *sharedManager = nil;
         dispatch_async(dispatch_get_main_queue(), ^{
             [self showAlertMessage:error.description];
         });
+    }];
+    
+    [service release];
+}
+- (void)insertItemsCash:(NSArray<SBCharacters*>*) obj success:(void (^)(void))success{
+    SBCashService* service = [[SBCashService alloc]init];
+    
+    [service insertItemsCash:obj success:^{
+        if(success)
+            success();
+    }];
+    
+    [service release];
+}
+- (void)itemsCash:(void (^)(NSArray<SBCharacters*>* obj))success{
+    SBCashService* service = [[SBCashService alloc]init];
+    
+    [service itemsCash:^(NSArray<SBCharacters *> *obj) {
+        if(success)
+            success(obj);
     }];
     
     [service release];

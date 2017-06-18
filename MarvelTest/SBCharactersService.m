@@ -13,7 +13,7 @@
 - (void) characters:(void (^)(NSArray<SBCharacters*>* obj))success failure:(void (^)(NSError *error))failure {
    
     if (![self connected]) {
-        [[SBCashService sharedManager] itemsCash:^(NSArray<SBCharacters *> *obj) {
+        [[SBManager sharedManager] itemsCash:^(NSArray<SBCharacters *> *obj) {
             NSLog(@"%@", obj);
             dispatch_async(dispatch_get_main_queue(), ^{
                 if(obj == nil){
@@ -59,7 +59,7 @@
                             [itemCharacter release];
                            
                         }
-                        [[SBCashService sharedManager]insertItemsCash:[NSArray arrayWithArray:temp] success:nil];
+                        [[SBManager sharedManager]insertItemsCash:[NSArray arrayWithArray:temp] success:nil];
                         
                         if (success) {
                             success([NSArray arrayWithArray:temp]);

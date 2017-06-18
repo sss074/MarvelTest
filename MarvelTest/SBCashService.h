@@ -11,7 +11,6 @@
 
 @interface SBCashService : NSObject
 
-+ (instancetype) sharedManager;
 - (void)insertItemsCash:(NSArray<SBCharacters*>*) obj success:(void (^)(void))success;
 - (void)itemsCash:(void (^)(NSArray<SBCharacters*>* obj))success;
 

@@ -13,5 +13,7 @@
 
 + (instancetype) sharedManager;
 - (void) characters:(void (^)(NSArray<SBCharacters*>* obj))success;
+- (void)insertItemsCash:(NSArray<SBCharacters*>*) obj success:(void (^)(void))success;
+- (void)itemsCash:(void (^)(NSArray<SBCharacters*>* obj))success;
 
 @end

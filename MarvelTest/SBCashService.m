@@ -8,18 +8,9 @@
 
 #import "SBCashService.h"
 
-static SBCashService *sharedManager = nil;
 
 @implementation SBCashService
 
-+ (instancetype)sharedManager {
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        sharedManager = [[SBCashService alloc]init];
-    });
-    
-    return sharedManager;
-}
 
 - (void)insertItemsCash:(NSArray<SBCharacters*>*) obj success:(void (^)(void))success{
     
